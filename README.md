@@ -11,11 +11,11 @@ Request :
     - Accept: application/json
 - Body :
 
-![Img 1](Ssapi/addproduct.png)
+![Img 1](addproduct.png)
 
 Response :
 
-![Img 2](Ssapi/resultaddproduct.png)
+![Img 2](resultaddproduct.png)
 
 ## Get All Products
 
@@ -27,9 +27,9 @@ Request :
 
 Response :
 
-![Img 3](Ssapi/getallproducts.png)
+![Img 3](getallproducts.png)
 
-![Img 4](Ssapi/getallproducts2.png)
+![Img 4](getallproducts2.png)
 
 ## Edit Product
 
@@ -41,11 +41,11 @@ Request :
     - Accept: application/json
 - Body :
 
-![Img 5](Ssapi/editproduct.png)
+![Img 5](editproduct.png)
 
 Response :
 
-![Img 6](Ssapi/resulteditproduct.png)
+![Img 6](resulteditproduct.png)
 
 ## Delete Product
 
@@ -57,7 +57,7 @@ Request :
 
 Response :
 
-![Img 7](Ssapi/deleteproduct.png)
+![Img 7](deleteproduct.png)
 
 # Authentication
 
@@ -76,12 +76,12 @@ Request :
     - Accept: application/json
 - Body :
 
-![Img 8](Ssapi/register.png)
+![Img 8](register.png)
 
 
 Response :
 
-![Img 9](Ssapi/registerresult.png)
+![Img 9](registerresult.png)
 
 ## Login
 Request :
@@ -92,11 +92,11 @@ Request :
     - Accept: application/json
 - Body :
 
-![Img 10](Ssapi/login.png)
+![Img 10](login.png)
 
 Response :
 
-![Img 11](Ssapi/loginresult.png)
+![Img 11](loginresult.png)
 
 ## License
 
