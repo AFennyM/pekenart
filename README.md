@@ -57,7 +57,7 @@ Request :
 
 Response :
 
-![Img 7](deleteproduct.png)
+![Img 7](resultdeleteproduct.png)
 
 # Authentication
 
