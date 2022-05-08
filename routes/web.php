@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/produk', function () {
+    return "beli";
+});
+Route::post('checkout', function () {
+    return redirect(route('success'));
+});
+Route::get('/sukses-page', function () {
+    return "pembelian berhasil";
+})->name('success');
