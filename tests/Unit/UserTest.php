@@ -17,7 +17,7 @@ class UserTest extends TestCase
 
         $response->assertStatus(200);
     }
-    public function test_stores_new_users()
+    public function test_add_new_users()
     {
         $response = $this->post('register', [
             'name' => 'Lavend',
@@ -29,8 +29,8 @@ class UserTest extends TestCase
     }
     public function test_database()
     {
-        $this->assertDatabaseHas('products', [
-            'name' => 'Guci Motif'
+        $this->assertDatabaseHas('users', [
+            'name' => 'user1'
         ]);
     }
     public function test_database_missing()
